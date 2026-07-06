@@ -47,7 +47,7 @@ The model generates visual heatmaps showing which regions of the fundus image it
 | Grade | Confidence | Heatmap |
 |-------|-----------|---------|
 | No DR | 99.7% | Focused on optic disc region |
-| Mild | 57.9% | Diffuse attention — subtle early disease |
+| Mild | 57.9% | Diffuse attention - subtle early disease |
 | Moderate | 79.9% | Vessel boundary regions |
 | Severe | 96.0% | Tight focus on damaged region |
 | Proliferative | 84.4% | Two focal lesion areas |
@@ -56,7 +56,7 @@ The model generates visual heatmaps showing which regions of the fundus image it
 
 ## Dataset
 
-**APTOS 2019 Blindness Detection** — Kaggle Competition Dataset
+**APTOS 2019 Blindness Detection** - Kaggle Competition Dataset
 
 | Split | Images |
 |-------|--------|
@@ -75,7 +75,7 @@ DR Severity Grades: 0 (No DR), 1 (Mild), 2 (Moderate), 3 (Severe), 4 (Proliferat
 Medical imaging datasets are small. Training from scratch on 3,662 images causes overfitting. ResNet18 pre-trained on ImageNet already understands image features (edges, textures, shapes). We fine-tune only the final layer (512 → 5 outputs) for DR grade classification.
 
 ### Why Grad-CAM
-DR detection models are used in clinical settings. Doctors need to understand and verify model decisions. Grad-CAM generates visual explanations by computing gradients of the predicted class with respect to the last convolutional layer activations — highlighting the exact retinal regions that drove the prediction.
+DR detection models are used in clinical settings. Doctors need to understand and verify model decisions. Grad-CAM generates visual explanations by computing gradients of the predicted class with respect to the last convolutional layer activations - highlighting the exact retinal regions that drove the prediction.
 
 ### Key Differences from Reference Paper
 | Aspect | Reference Paper (2023) | This Project |
@@ -114,7 +114,6 @@ python src/gradcam.py    # Generate Grad-CAM heatmaps
 
 ## Related Work
 
-- **Associated IEEE Publication (EEG):** [Sleep Staging Analysis Using ML](https://github.com/kparth9838/EEG-SLEEP-STAGE-CLASSIFICATION) — IEEE ICONAT 2025 | DOI: [10.1109/ICONAT66879.2025.11362450](https://doi.org/10.1109/ICONAT66879.2025.11362450)
 - **Reference Paper:** Uppamma & Bhattacharya (2023), Scientific Reports — DOI: [10.1038/s41598-023-45886-7](https://doi.org/10.1038/s41598-023-45886-7)
 
 ---
@@ -123,5 +122,5 @@ python src/gradcam.py    # Generate Grad-CAM heatmaps
 
 **Parth Khunt** — B.Tech ICT, PDEU Gandhinagar (2026)
 
-[![GitHub](https://img.shields.io/badge/GitHub-kparth9838-black)](https://github.com/kparth9838)
+[![GitHub](https://img.shields.io/badge/GitHub-kparth9838-black)](https://github.com/kparth9835)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-parthkhunt160904-blue)](https://linkedin.com/in/parthkhunt160904/)
