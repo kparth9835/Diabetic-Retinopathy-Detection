@@ -91,7 +91,7 @@ DR detection models are used in clinical settings. Doctors need to understand an
 ## Setup
 
 ```bash
-git clone https://github.com/kparth9838/Diabetic-Retinopathy-Detection.git
+git clone https://github.com/kparth9835/Diabetic-Retinopathy-Detection.git
 cd Diabetic-Retinopathy-Detection
 pip install torch torchvision matplotlib scikit-learn pandas numpy opencv-python seaborn Pillow
 ```
@@ -122,5 +122,5 @@ python src/gradcam.py    # Generate Grad-CAM heatmaps
 
 **Parth Khunt** — B.Tech ICT, PDEU Gandhinagar (2026)
 
-[![GitHub](https://img.shields.io/badge/GitHub-kparth9838-black)](https://github.com/kparth9835)
+[![GitHub](https://img.shields.io/badge/GitHub-kparth9835-black)](https://github.com/kparth9835)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-parthkhunt160904-blue)](https://linkedin.com/in/parthkhunt160904/)
